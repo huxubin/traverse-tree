@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <traverse-tree :node-id="1000"></traverse-tree>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TraverseTree from './components/TraverseTree.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TraverseTree
   }
 }
 </script>
