@@ -1,4 +1,3 @@
-import Mock from 'mockjs'
 let data = [{
   "id": 100,
   "name": "China",
@@ -29,4 +28,4 @@ let data = [{
     }
   ]
 }]
-Mock.mock(/mock\/treeData/, data)
+export {data}

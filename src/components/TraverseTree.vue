@@ -13,7 +13,7 @@
 
 <script>
 import Axios from 'axios'
-import MockData from '../utils/mock-data'
+import MockData from '../utils/mock'
 export default {
   name: 'TraverseTree',
   props: {
